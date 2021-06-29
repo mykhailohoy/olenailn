@@ -1,0 +1,28 @@
+@import "common.scss";
+
+main {
+  padding: 0;
+}
+
+.bg {
+  background-image: url(../img/portrait.png);
+  height: 60vw;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 0 -8vw;
+}
+@media (max-width: 650px) {
+  .bg {
+    height: 90vh;
+    background-position: -190vh 0;
+  }
+}
+
+.bio {
+  padding-bottom: 70px;
+}
+
+section {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
